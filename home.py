@@ -1,20 +1,4 @@
-'''
-1. my_join()  함수 구현 : str1과 str2 문자열을 결합해서 return 하는 함수
-   def my_join(str1, str2):
 
-
-'''
-
-st1 = input("Input First String : ")
-st2 = input("Input Second String : ")
-
-def my_join(str1, str2):
-    
-    result = str1 + " " + str2
-
-    return result
-
-print(my_join(st1, st2))
 
 '''
 2. my_split() 함수 구현 : str 내용 중 ch를 기준으로 분리하여 List에 저장 후 return 함수
