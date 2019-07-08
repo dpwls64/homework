@@ -23,16 +23,15 @@ def my_split(str, ch):
    
     
     while str[a+1:].find(ch) != -1:
-        #print(a)
+      
         a = str[a+1:].find(ch) + a + 1
-        #print(a)
+    
         
         l.append(a)
-        #print(l)
+        
 
     result.append(str[0:l[0]])
-    #print(l)   
-    #print(len(l))
+    
     
 
     for i in range(len(l)-1):
