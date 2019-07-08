@@ -39,7 +39,7 @@ def my_split(str, ch):
         b = (str[l[i+1]+1 : ])
 
     result.append(b)
-    print(result)
+    return result
 
 
-my_split(str,ch)
+print(my_split(str,ch))
