@@ -11,6 +11,8 @@ def my_sum(list):
     for j in range(10):
         sum = sum + list[j]
     return sum
+print(my_sum(l))
+
 
 
 def my_avg(list):
@@ -19,6 +21,6 @@ def my_avg(list):
 
     return avg
 
-
-print(my_sum(l))
 print(my_avg(l))
+
+
